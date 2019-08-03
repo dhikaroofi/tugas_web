@@ -11,26 +11,23 @@
 </head>
 
 <body>
-	<div class="container">
-		<div class="row">
-			<div class="col-md-3 bg-primary text-white">
-				asd
-			</div>
-			<div class="col-md-3"></div>
-			<div class="col-md-6 bg-danger text-white">
-				asd
-			</div>
-		</div>
-		<div class="row">
-			<div class="col-md-4 bg-warning text-white">
-				asd
-			</div>
-			<div class="col-md-4 bg-dark my-1"></div>
-			<div class="col-md-4 bg-success text-white">
-				asd
-			</div>
-		</div>
-	</div>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+<div class="container">
+  <a class="navbar-brand" href="#"><img src="img/logo.png" size="22px" ></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+    <div class="navbar-nav">
+      <a class="nav-item nav-link " href="#">All Menu</a>
+      <a class="nav-item nav-link " href="#">Pizza</a>
+      <a class="nav-item nav-link " href="#">Pasta</a>
+      <a class="nav-item nav-link " href="#">Nasi</a>
+      <a class="nav-item nav-link " href="#">Minuman</a>
+    </div>
+  </div>
+</div>
+</nav>
 
 
 	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
